@@ -21,7 +21,7 @@ int main () {
 	scanf("%d",&alter);
 
 	//Zuordnung der Altersklasse
-	if (0<alter&&alter<=17777777) {
+	if (0<alter&&alter<=17) {
 		printf("\nAha, du bist also ein Kind oder Jungendlicher.\n");
 	} else if (alter<67){
 		printf("\nLaut Ihres Alters sind Sie ein Erwachsender.\n");
